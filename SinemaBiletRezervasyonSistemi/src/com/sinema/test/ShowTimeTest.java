@@ -8,7 +8,10 @@ import com.sinema.model.*;
 
 public class ShowTimeTest {
 	
-	
+	/**
+	 * ShowTime sınıfına ait indirim kurallarını test eder.
+	 */
+
 
     @Test
     public void ilkUcBiletIndirimliOlmali() {
