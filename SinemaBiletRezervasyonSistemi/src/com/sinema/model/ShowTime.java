@@ -118,7 +118,7 @@ public class ShowTime {
 
     /**
      * Seans için geçerli bilet fiyatını döndürür.
-     * İlk 3 bilette %20 indirim uygulanır.
+     * İlk 3 bilettte %%20 indirim uygulanır.
      */
     public double biletFiyatiHesapla() {
 
