@@ -98,7 +98,9 @@ public class Main {
                    1 - FİLM VE SEANSLARI LİSTELE
                    =============================== */
             case 1:
-                System.out.println("\n📽️  FİLM VE SEANS LİSTESİ\n");
+            	System.out.println();
+            	System.out.println("========== VİZYONDAKİ FİLMLER ==========");
+
 
                 for (int i = 0; i < seanslar.size(); i++) {
                     ShowTime s = seanslar.get(i);
