@@ -79,12 +79,16 @@ public class Main {
            ANA MENÜ DÖNGÜSÜ
            =============================== */
         do {
-            System.out.println("\n=== Sinema Bilet Rezervasyon Sistemi ===");
-            System.out.println("1 - Film ve Seansları Listele");
-            System.out.println("2 - Rezervasyon Yap");
-            System.out.println("3 - Rezervasyon Geçmişini Göster");
-            System.out.println("0 - Çıkış");
-            System.out.print("Seçiminiz: ");
+        	System.out.println("======================================");
+        	System.out.println("   SİNEMA BİLET REZERVASYON SİSTEMİ   ");
+        	System.out.println("======================================");
+        	System.out.println("1 - Film ve seansları listele");
+        	System.out.println("2 - Rezervasyon yap");
+        	System.out.println("3 - Rezervasyon geçmişini göster");
+        	System.out.println("0 - Çıkış");
+        	System.out.println("--------------------------------------");
+        	System.out.print("Seçiminiz: ");
+
 
             secim = scanner.nextInt();
 
