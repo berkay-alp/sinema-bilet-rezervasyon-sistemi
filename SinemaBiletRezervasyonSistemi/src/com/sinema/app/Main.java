@@ -144,7 +144,9 @@ public class Main {
                     // Koltuk seçimi
                     
                     secilenSeans.koltuklariGoster();
-                    System.out.println("\n🎟️ Koltuk Seçimi");
+                    System.out.println();
+                    System.out.println("========== KOLTUK DURUMU ==========");
+
 
                     int koltukNo = scanner.nextInt();
 
